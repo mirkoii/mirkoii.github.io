@@ -1,1 +1,68 @@
-hello world
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f8f7f3" />
+    <title>Mehdi Rostami (Mirko) — Software Architect & Technical Lead</title>
+    <meta
+      name="description"
+      content="Meet Mehdi Rostami, known as Mirko. Software Architect and Technical Lead. Explore public projects, technical interests and a printable CV."
+    />
+    <link rel="canonical" href="https://mirkoii.github.io/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:type" content="profile" />
+    <meta
+      property="og:title"
+      content="Mehdi Rostami (Mirko) — Software Architect & Technical Lead"
+    />
+    <meta
+      property="og:description"
+      content="Clarity in complexity. Craft in every layer. Explore Mirko’s public work."
+    />
+    <meta property="og:url" content="https://mirkoii.github.io/" />
+    <meta
+      property="og:image"
+      content="https://mirkoii.github.io/social-card.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mehdi Rostami",
+        "alternateName": "Mirko",
+        "jobTitle": "Software Architect and Technical Lead",
+        "url": "https://mirkoii.github.io/",
+        "sameAs": ["https://github.com/mirkoii"]
+      }
+    </script>
+    <script>
+      try {
+        const t = localStorage.getItem("theme");
+        document.documentElement.dataset.theme =
+          t === "dark" || t === "light"
+            ? t
+            : matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light";
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript
+      ><main>
+        <h1>Mehdi Rostami (Mirko)</h1>
+        <p>Software Architect and Technical Lead.</p>
+        <p>
+          <a href="https://github.com/mirkoii"
+            >Explore my public work on GitHub</a
+          >.
+        </p>
+        <p>Enable JavaScript to explore the interactive CV.</p>
+      </main></noscript
+    >
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

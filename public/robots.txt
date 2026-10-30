@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mirkoii.github.io/sitemap.xml
